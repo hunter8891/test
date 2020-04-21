@@ -1,0 +1,35 @@
+ 
+@charset "utf-8";
+    /* Web Design developer : CWJ */
+    body {line-height:1;}
+    html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote, p, b, address, pre, cite, form, fieldset, input, textarea, select, table, th, td, iframe, object, embed, blockquote, abbr, a, acronym, dfn, cite, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, applet, canvas, details, output, ruby, summary, time, mark, audio, video {margin:0; padding:0;}/* 제목 */h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal;}/* 테투리 */fieldset, img, abbr, acronym {border:0 none;}/* 리스트 */ol, ul {list-style:none;}/* 테이블 */table {border-collapse:collapse; border-spacing:0; border:0 none;}caption, th, td {font-weight:normal;}/* 텍스트 관련 */address, caption, strong, em, cite {font-weight:normal; font-style:normal;}ins {text-decoration:none;}del {text-decoration:line-through;}input, select, textarea, option, label, button {font-size:100%; font-weight:normal; box-sizing:border-box; outline-style:none;}mark {background-color:transparent;}/* 수직정렬 */img, a, input, select, textarea, label, button, span, em, strong, mark, acronym, abbr, ins {vertical-align:baseline;}/* 인용문 */blockquote, q {quotes:none;}blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}/* 수평선 */legend, caption, hr {display:none;}/* HTML5 요소 블록화 (구형 브라우저) */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}/* 앵커 */a {text-decoration:none;}a:link {text-decoration:none;}a:visited {text-decoration:none;}a:hover {text-decoration:none;}a:active {text-decoration:none;}
+
+ body{font-size:62.5%;font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif}
+  .header_wrap{background:white;color:white;width:100%;overflow:hidden;border-bottom:2px solid #333;}
+  .logo{margin:0.5rem auto 1rem auto;}
+  .logo img{vertical-align:middle}
+  .content{width:100%;margin-top:100px}
+.wrap{width:calc(980px - 40px);padding:0 20px;margin:0 auto;overflow: hidden;}
+h2{font-size:1.6rem;font-weight:bold;margin-top:2rem}
+h2 span{text-decoration:overline;color:#306dad}
+hr{border-top:1px solid #a7a7a7}
+.row{margin-right:0;margin-left:0;}
+.user_info_photo{float:left;}
+.user_info_photo .avatar-image{width:24px;border-radius:50%}
+.user_info{margin-left:5px;float:left;}
+.user_info a{color:#0566b8;;font-weight:bold}
+.user_info div{color:#999}
+.l_card{float:left;padding:0;width:48%;margin-top:2rem}
+.r_card{float:right;padding:0;width:48%;margin-top:2rem}
+.category_wrap{width:70%;margin:0 auto}
+.category_wrap h3{color:#306dad}
+.category_wrap ul{padding:0}
+.category_wrap li{list-style:none;cursor: pointer;}
+.newcard_wrap img{height:25rem;width:100%}
+.l_card img,.r_card img{height:15rem;}
+.fas{cursor: pointer;}
+.card{box-shadow: 1px 1px 1px;}
+.card-text{color:#666;font-size:1rem}
+.card img{width:100%;}
+footer{border-top:2px solid #333;padding:0 15px;width:100%;margin:3rem auto;padding-top:1rem}
+address{color:#999;font-size:12px}
