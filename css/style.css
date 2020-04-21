@@ -10,6 +10,9 @@
   .logo img{vertical-align:middle}
   .content{width:100%;margin-top:100px}
 .wrap{width:calc(980px - 40px);padding:0 20px;margin:0 auto;overflow: hidden;}
+h1{font-size:1.4rem !important;font-weight:bold;color:#333;}
+h1 a img{vertical-align:middle;float:left;}
+h1 span{float:left;margin-top:5px;margin-left:10px}
 h2{font-size:1.6rem;font-weight:bold;margin-top:2rem}
 h2 span{text-decoration:overline;color:#306dad}
 hr{border-top:1px solid #a7a7a7}
