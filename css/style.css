@@ -21,7 +21,7 @@ hr{border-top:1px solid #a7a7a7}
 .user_info_photo .avatar-image{width:24px;border-radius:50%}
 .user_info{margin-left:5px;float:left;}
 .user_info a{color:#0566b8;;font-weight:bold}
-.user_info div{color:#999}
+.user_info div,.user_info span{color:#999}
 .l_card{float:left;padding:0;width:48%;margin-top:2rem}
 .r_card{float:right;padding:0;width:48%;margin-top:2rem}
 .category_wrap{width:70%;margin:0 auto}
@@ -39,5 +39,9 @@ hr{border-top:1px solid #a7a7a7}
 .view_wrap img{width:100%}
 .reply_wrap{clear:both;display:block;margin-top:5rem;margin-bottom:3rem}
 .reply_wrap h5{border-bottom:1px solid #d9d9d9;padding-bottom:1rem}
+.list_text_wrap{border-bottom:1px solid #d9d9d9;margin-bottom:2rem;}
+.list_wrap p{color:#666;display: inline-block; width:100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
+	/* 여러 줄 자르기 추가 스타일 */ white-space: normal; line-height: 1.8; height: 3.6em;
+}
 footer{border-top:2px solid #333;padding:0 15px;width:100%;margin:3rem auto;padding-top:1rem}
 address{color:#999;font-size:12px}
