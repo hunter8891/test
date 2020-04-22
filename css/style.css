@@ -40,6 +40,7 @@ hr{border-top:1px solid #a7a7a7}
 .reply_wrap{clear:both;display:block;margin-top:5rem;margin-bottom:3rem}
 .reply_wrap h5{border-bottom:1px solid #d9d9d9;padding-bottom:1rem}
 .list_text_wrap{border-bottom:1px solid #d9d9d9;margin-bottom:2rem;}
+.list_text_wrap:last-child{border:none;}
 .list_wrap p{color:#666;display: inline-block; width:100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
 	/* 여러 줄 자르기 추가 스타일 */ white-space: normal; line-height: 1.8; height: 3.6em;
 }
